@@ -117,9 +117,9 @@ author:
   name             : "Paul Perez"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : >-
-    Aerospace Engineer,
+    Aerospace Engineer,\n
     Earth Monitoring and Modelling
-  location         : "Relocating to Barcelona, Spain - end of 2026"
+  location         : "Relocating to Barcelona, Spain"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
@@ -129,7 +129,7 @@ author:
       url: "/assets/files/CV_Paul_Perez.pdf"
     - label: "LinkedIn"
       icon: "fab fa-square-linkedin"
-      url: "www.linkedin.com/in/paul-perez-a2755517b/"
+      url: "https://www.linkedin.com/in/paul-perez-a2755517b/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/PrzPaul"
@@ -139,7 +139,7 @@ footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "www.linkedin.com/in/paul-perez-a2755517b/"
+      url: "https://www.linkedin.com/in/paul-perez-a2755517b/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/PrzPaul"
