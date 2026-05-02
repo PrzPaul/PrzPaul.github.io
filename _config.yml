@@ -116,9 +116,7 @@ analytics:
 author:
   name             : "Paul Perez"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : |
-    Aerospace Engineer,
-    Planetary Sciences
+  bio              : "Aerospace Engineer,\nPlanetary Sciences"
   location         : "Relocating to Barcelona, Spain"
   links:
     - label: "Email"
