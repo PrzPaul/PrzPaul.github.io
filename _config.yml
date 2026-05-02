@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale                   : "en-US"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
-title                    : "Paul Perez"
+title                    : 
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : # "Paul Perez"
+name                     : 
 description              : 
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -116,7 +116,9 @@ analytics:
 author:
   name             : "Paul Perez"
   avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Aerospace Engineer,\n Earth Monitoring and Modelling"
+  bio              : |
+    Aerospace Engineer,
+    Planetary Sciences
   location         : "Relocating to Barcelona, Spain"
   links:
     - label: "Email"
