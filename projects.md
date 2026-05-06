@@ -6,11 +6,11 @@ permalink: /projects/
 author_profile: true
 ---
 
-<h3 style="color:0D8DC5"><strong>CBRN Alert: Web App for Atmospheric Dispersion Modelling of CBRN releases</strong></h3>
+<h3 style="color:#0D8DC5"><strong>CBRN Alert: Web App for Atmospheric Dispersion Modelling of CBRN releases</strong></h3>
 
 
 
-<h3 style="color:0D8DC5"><strong>Sensitivity analysis of WRF model parameterization on CO<sub>2</sub> column mole fractions</strong></h3>
+<h3 style="color:#0D8DC5"><strong>Sensitivity analysis of WRF model parameterization on CO<sub>2</sub> column mole fractions</strong></h3>
 
 {% include image.html url="/assets/images/wrf-sims.gif" description="Simulated CO<sub>2</sub> emissions from Berlin's city plume (left) and neighboring power plants (right) using WRF." %}
 
@@ -18,5 +18,5 @@ Top-down carbon flux estimates, crucial for accurately monitoring and reducing o
 
 {% include image.html url="/assets/images/wrf-results.png" description="The table presents how large the variability in CO<sub>2</sub> mole fraction is relative to the mean city plume signal, of 1 ppm. This table gives an estimation of WRF uncertainty from the physical parameterization, for every signal, as well as of the contribution of the different signals to the uncertainty." %}
 
-<h3 style="color:0D8DC5"><strong>Booming dunes on Mars?</strong></h3>
+<h3 style="color:#0D8DC5"><strong>Booming dunes on Mars?</strong></h3>
 
