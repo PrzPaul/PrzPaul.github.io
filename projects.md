@@ -24,7 +24,7 @@ Results from an ensemble of models with varying physical parameterizations showe
 
 Internship report:
 
-- Perez, P. (2020). *Quantifying uncertainties in CO<sub>2</sub> column mole fractions due to atmospheric transport errors in the WRF model, over Berlin* [Internship report](/assets/files/WRF_uncertainties_Paul_Perez.pdf). Earth program, SRON.
+- Perez, P. (2020). *Quantifying uncertainties in CO<sub>2</sub> column mole fractions due to atmospheric transport errors in the WRF model, over Berlin* [[Internship report](/assets/files/WRF_uncertainties_Paul_Perez.pdf)]. Earth program, SRON.
 
 {% include image.html url="/assets/images/wrf-results.png" description="The table presents how large the variability in CO<sub>2</sub> mole fraction is relative to the mean city plume signal, of 1 ppm. It gives an estimation of WRF uncertainty from the physical parameterization, for every signal, as well as of the contribution of the different signals to the uncertainty. (PBL: Planetary Boundary Layer; LSM: Land Surface Model; CP: Cumulus Parameterization)" %}
 
