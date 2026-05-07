@@ -14,6 +14,13 @@ Publication:
 
 - Perez, P., Benhassine, M., Quinn, J., Janssens, B., & Van Utterbeeck, F. (2025). Simulation of a nuclear fallout scenario in the Zaporizhzhia nuclear power plant during the Ukraine conflict: Implications of dose rate distributions for downwind populations. *Military Medicine, 190*(Supplement_2), 536–542. [https://doi.org/10.1093/milmed/usaf263](https://doi.org/10.1093/milmed/usaf263)
 
+Software:
+
+- CbrnAlert web application developed. Source code available on [GitHub](https://github.com/cbrnalert/CbrnAlert).
+- [FLEXPART](https://www.flexpart.eu/) dispersion model.
+- [flex_extract](https://flexpart.img.univie.ac.at/flexextract/). ECMWF data retrieval and processing software for FLEXPART model input.
+- Julia packages (with GitHub links) contributed to: [Flexpart.jl](https://github.com/tcarion/Flexpart.jl), [FlexExtract.jl](https://github.com/tcarion/FlexExtract.jl), [ATP45.jl](https://github.com/tcarion/ATP45.jl).
+
 ## Sensitivity analysis of WRF model parameterization on CO<sub>2</sub> column mole fractions
 
 Top-down carbon flux estimates, crucial for accurately monitoring and reducing our greenhouse gas emissions, combine atmospheric concentration measurements and inverse modelling. The goal of this project was to quantify uncertainties in simulated CO<sub>2</sub> column mole fractions due to atmospheric transport errors in the Weather Research and Forecasting (WRF) model, and to evaluate the contribution of different signals (background, biosphere, anthropogenic sources) to these uncertainties. We focused on modelling the city plume of Berlin within a high spatial resolution (2 by 2 km) nested domain over multiple days, using ERA5 reanalysis data, and emissions datasets from TNO and CAMS.
