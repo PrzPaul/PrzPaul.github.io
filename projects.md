@@ -16,7 +16,7 @@ Publication:
 
 Software:
 
-- CbrnAlert web application developed. Source code available on [GitHub](https://github.com/cbrnalert/CbrnAlert).
+- CbrnAlert web application. Source code available on [GitHub](https://github.com/cbrnalert/CbrnAlert).
 - [FLEXPART](https://www.flexpart.eu/) dispersion model.
 - [flex_extract](https://flexpart.img.univie.ac.at/flexextract/). ECMWF data retrieval and processing software for FLEXPART model input.
 - Julia packages (with GitHub links) contributed to: [Flexpart.jl](https://github.com/tcarion/Flexpart.jl), [FlexExtract.jl](https://github.com/tcarion/FlexExtract.jl), [ATP45.jl](https://github.com/tcarion/ATP45.jl).
@@ -48,5 +48,9 @@ It was found that at Mars-like pressure levels, the booming sand produced sounds
 Thesis report:
 
 - Perez, P. (2023). *The impact of interstitial air pressure on sand acoustic emissions in the context of Mars exploration* [Master's thesis, Delft University of Technology]. TU Delft Repository. [https://resolver.tudelft.nl/uuid:318ebd5f-1f23-4e56-9a33-890d80ada65a](https://resolver.tudelft.nl/uuid:318ebd5f-1f23-4e56-9a33-890d80ada65a)
+
+Software:
+
+- Model for acoustic absorption vs. sound frequency in different planetary environments. Based on [Liu et al. (2017)](https://doi.org/10.1098/rspa.2017.0496). Code available on [GitHub](https://github.com/PrzPaul/Acoustic-Absorption-in-Gas-Mixtures).
 
 {% include image.html url="/assets/images/booming-results.png" description="Left: Comparison of theoretical and experimental sound pressure levels of booming sand and normal sand, as a function of chamber pressure, in the shaking jar experiment. While the regular sand behaves as predicted, the booming sand's sound becomes louder than expected as the pressure decreases. Right: Comparison of booming sounds at ambient Earth pressure and Mars-like pressure, during the laboratory avalanche experiment. The amplitudes are scaled in order to better compare the shape and length of the acoustic emissions produced. The sound at low pressure begins earlier, at a higher frequency (result not shown here), suggesting that perhaps a thinner sheared layer of sonic sand would be required to emit a sand acoustic emission." %}
