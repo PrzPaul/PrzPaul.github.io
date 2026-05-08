@@ -33,6 +33,10 @@ Internship report:
 
 - Perez, P. (2020). *Quantifying uncertainties in CO<sub>2</sub> column mole fractions due to atmospheric transport errors in the WRF model, over Berlin* [[Internship report](/assets/files/WRF_uncertainties_Paul_Perez.pdf)]. Earth program, SRON.
 
+Software:
+
+- Weather Research and Forecasting (WRF) model available [here](https://www.mmm.ucar.edu/models/wrf).
+
 {% include image.html url="/assets/images/wrf-results.png" description="The table presents how large the variability in CO<sub>2</sub> mole fraction is relative to the mean city plume signal, of 1 ppm. It gives an estimation of WRF uncertainty from the physical parameterization, for every signal, as well as of the contribution of the different signals to the uncertainty. (PBL: Planetary Boundary Layer; LSM: Land Surface Model; CP: Cumulus Parameterization)" %}
 
 ## Booming sand dunes on Mars?
@@ -51,6 +55,8 @@ Thesis report:
 
 Software:
 
+- [GRADISTATv8](https://www.researchgate.net/publication/277015584_GRADISTATv8). An excel package for grain size distribution and statistics.
 - Model for acoustic absorption vs. sound frequency in different planetary environments. Based on [Liu et al. (2017)](https://doi.org/10.1098/rspa.2017.0496). Code available on [GitHub](https://github.com/PrzPaul/Acoustic-Absorption-in-Gas-Mixtures).
+- [LabVIEW](https://www.ni.com/en/shop/labview) for all the data acquisition during experiments.
 
 {% include image.html url="/assets/images/booming-results.png" description="Left: Comparison of theoretical and experimental sound pressure levels of booming sand and normal sand, as a function of chamber pressure, in the shaking jar experiment. While the regular sand behaves as predicted, the booming sand's sound becomes louder than expected as the pressure decreases. Right: Comparison of booming sounds at ambient Earth pressure and Mars-like pressure, during the laboratory avalanche experiment. The amplitudes are scaled in order to better compare the shape and length of the acoustic emissions produced. The sound at low pressure begins earlier, at a higher frequency (result not shown here), suggesting that perhaps a thinner sheared layer of sonic sand would be required to emit a sand acoustic emission." %}
