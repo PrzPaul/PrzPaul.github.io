@@ -6,7 +6,7 @@ permalink: /
 author_profile: true
 ---
 
-I'm Paul Perez, an aerospace engineer specialized in planetary sciences, currently looking for the next challenge to take on! I've recently worked as a scientific researcher in atmospheric modelling in the Fluid Dynamics Department at the Royal Military Academy of Belgium, under Prof. Bart Janssens. My project revolved around the development of a web-based tool for near real-time particle dispersion modelling and forecasting of chemical, biological, radiological or nuclear (CBRN) releases, for enhanced emergency response. The main challenges were to reduce the retrieval time of high resolution meteorological datasets needed for the dispersion models, quantify uncertainties for more informed decision making, as well as to create an intuitive interface to reduce the level of expertise usually needed to operate these types of software.
+I'm Paul Perez, an aerospace engineer specialized in planetary sciences, currently looking for the next challenge to take on! I've recently worked as a scientific researcher in atmospheric modelling in the Fluid Dynamics Department at the Royal Military Academy of Belgium, under Prof. Bart Janssens. My project revolved around the development of a website for fast and reliable dispersion prediction of harmful agents released in the atmosphere, to provide clear insights of the zones and people at risk, for timely and effective response planning.
 
 Having studied planetary processes through the lens of numerical modelling (see more details about projects I've worked on in the [Projects](/projects/) page), I now look forward to adventuring more upstream, to tackle the tangible engineering challenges of remote sensing and satellite observation missions.
 
