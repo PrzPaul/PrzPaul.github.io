@@ -6,9 +6,28 @@ permalink: /projects/
 author_profile: true
 ---
 
-## CBRN Alert: Web App for Atmospheric Dispersion Modelling of CBRN releases
+## CbrnAlert: Web app for atmospheric dispersion modelling of CBRN releases
 
+In an attack with a chemical, biological, radiological or nuclear (CBRN) agent, time is of the essence. The aim of the project was to develop a website for near real-time particle dispersion forecasting of such releases, for enhanced emergency response. The main challenges were to reduce the retrieval time of high resolution meteorological datasets needed for the dispersion models, quantify uncertainties for more informed decision making, as well as to create an intuitive interface to reduce the level of expertise usually needed to operate these types of software.
 
+{% include image.html url="/assets/images/cbrnalert.png" description="Example of a dispersion simulation result using the CbrnAlert web app." %}
+
+The app was hosted on the European Weather Cloud (EWC) for faster computations and close proximity to ECMWF's high resolution meteorological forecasts, using MARS for retrieval. The goal was to eventually switch to the Polytope service, for more efficient datacube extraction localised in space and time. The data was then used to run the Lagrangian disperion model FLEXPART with the desired release parameters, after which the results could be plotted on the interactive map, and layered on top of elements like population density. Uncertainty quantification was implemented by introducing ensemble forecasts retrieval and dispersion simulations. The results provide statistical visualizations of model uncertainties, critical for better decision making.
+
+Software:
+
+- CbrnAlert web application. Source code available on [GitHub](https://github.com/cbrnalert/CbrnAlert).
+- [FLEXPART](https://www.flexpart.eu/) dispersion model.
+- [flex_extract](https://flexpart.img.univie.ac.at/flexextract/). ECMWF data retrieval and processing software for FLEXPART model input.
+- Julia packages contributed to: [Flexpart.jl](https://github.com/tcarion/Flexpart.jl), [FlexExtract.jl](https://github.com/tcarion/FlexExtract.jl), [ATP45.jl](https://github.com/tcarion/ATP45.jl).
+
+## Dispersion simulation and radiation estimates for a hypothetical nuclear fallout scenario in Ukraine
+
+In this study, I explored the potential of a radiological release of Caesium-137 on the order of the Fukushima disaster, at the Zaporizhzhia Nuclear Power Plant amid the ongoing Ukraine war, to estimate and discuss the impact on health security for downwind populations. I used the CbrnAlert web app (described above) to run high resolution dispersion simulations over the area. The resultant radionuclide surface concentrations were used to estimate effective radiation dose and absorbed thyroid dose over 1 year and three age groups, based on the methodologies used in the United Nations' 2013 and 2020 UNSCEAR reports for the Fukushima disaster.
+
+{% include image.html url="/assets/images/zapo-sim.png" description="Simulated surface concentration of Caesium-137 one week after hypothetical release, using the CbrnAlert web app. The pink rectangle represents the model domain for the lower-resolution continental simulation, and the orange rectangle zooms in on the high-resolution simulation focusing on the most contaminated area." %}
+
+When comparing the results against the public protection guidelines set by the ICRP and IAEA, the most contaminated 1-2 km<sup>2</sup> next to the source would require evacuation, while populations up to 50 km away from the source should follow food consumption restrictions and iodine thyroid blocking measures, especially for young children. This study underlines the importance of immediate informing of affected populations, especially considering the war and rurality in Ukraine, as well as preparedness regarding foodstuff restrictions and availability of iodine thyroid blocking tablets. Additional work is needed to lower dose estimation assumptions and subsequent uncertainties, and to provide a more robust assessment for varying weather conditions and release parameters.
 
 Publication:
 
@@ -17,9 +36,6 @@ Publication:
 Software:
 
 - CbrnAlert web application. Source code available on [GitHub](https://github.com/cbrnalert/CbrnAlert).
-- [FLEXPART](https://www.flexpart.eu/) dispersion model.
-- [flex_extract](https://flexpart.img.univie.ac.at/flexextract/). ECMWF data retrieval and processing software for FLEXPART model input.
-- Julia packages (with GitHub links) contributed to: [Flexpart.jl](https://github.com/tcarion/Flexpart.jl), [FlexExtract.jl](https://github.com/tcarion/FlexExtract.jl), [ATP45.jl](https://github.com/tcarion/ATP45.jl).
 
 ## Sensitivity analysis of WRF model parameterization on CO<sub>2</sub> column mole fractions
 
