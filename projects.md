@@ -10,7 +10,9 @@ author_profile: true
 
 In an attack with a chemical, biological, radiological or nuclear (CBRN) agent, time is of the essence. The aim of the project was to develop a website for near real-time particle dispersion forecasting of such releases, for enhanced emergency response. The main challenges were to reduce the retrieval time of high resolution meteorological datasets needed for the dispersion models, quantify uncertainties for more informed decision making, as well as to create an intuitive interface to reduce the level of expertise usually needed to operate these types of software.
 
-{% include image.html url="/assets/images/cbrnalert.png" description="Example of a dispersion simulation result using the CbrnAlert web app." %}
+<video>
+  <source src="/assets/files/cbrnalert.mp4" type="video/mp4">
+</video>
 
 The app was hosted on the European Weather Cloud (EWC) for faster computations and close proximity to ECMWF's high resolution meteorological forecasts, using MARS for retrieval. The goal was to eventually switch to the Polytope service, for more efficient datacube extraction localised in space and time. The data was then used to run the Lagrangian disperion model FLEXPART with the desired release parameters, after which the results could be plotted on the interactive map, and layered on top of elements like population density. Uncertainty quantification was implemented by introducing ensemble forecasts retrieval and dispersion simulations. The results provide statistical visualizations of model uncertainties, critical for better decision making.
 
