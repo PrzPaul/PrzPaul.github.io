@@ -10,7 +10,7 @@ author_profile: true
 
 In an attack with a chemical, biological, radiological or nuclear (CBRN) agent, time is of the essence. The aim of the project was to develop a website for near real-time particle dispersion forecasting of such releases, for enhanced emergency response. The main challenges were to reduce the retrieval time of high resolution meteorological datasets needed for the dispersion models, quantify uncertainties for more informed decision making, as well as to create an intuitive interface to reduce the level of expertise usually needed to operate these types of software.
 
-<video>
+<video width="480" height="320" controls="controls">
   <source src="/assets/files/cbrnalert.mp4" type="video/mp4">
 </video>
 
