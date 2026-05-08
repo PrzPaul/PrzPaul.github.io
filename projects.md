@@ -6,7 +6,8 @@ permalink: /projects/
 author_profile: true
 ---
 
-## CbrnAlert: Web app for atmospheric dispersion modelling of CBRN releases
+<details>
+<summary>## CbrnAlert: Web app for atmospheric dispersion modelling of CBRN releases</summary>
 
 In an attack with a chemical, biological, radiological or nuclear (CBRN) agent, time is of the essence. The aim of the project was to develop a website for near real-time particle dispersion forecasting of such releases, for enhanced emergency response. The main challenges were to reduce the retrieval time of high resolution meteorological datasets needed for the dispersion models, quantify uncertainties for more informed decision making, as well as to create an intuitive interface to reduce the level of expertise usually needed to operate these types of software.
 
@@ -20,6 +21,8 @@ Software:
 - [FLEXPART](https://www.flexpart.eu/) dispersion model.
 - [flex_extract](https://flexpart.img.univie.ac.at/flexextract/). ECMWF data retrieval and processing software for FLEXPART model input.
 - Julia packages contributed to: [Flexpart.jl](https://github.com/tcarion/Flexpart.jl), [FlexExtract.jl](https://github.com/tcarion/FlexExtract.jl), [ATP45.jl](https://github.com/tcarion/ATP45.jl).
+
+</details>
 
 ## Dispersion simulation and radiation estimates for a hypothetical nuclear fallout scenario in Ukraine
 
